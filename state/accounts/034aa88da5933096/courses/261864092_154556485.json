@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "status": "ACTIVE",
-  "run_count": 0,
+  "run_count": 1,
   "success_count": 0,
-  "failure_count": 0,
+  "failure_count": 1,
   "course_identity": {
     "course_id": "261864092",
     "clazz_id": "154556485",
@@ -14,10 +14,35 @@
     "account_id": ""
   },
   "progress": {
-    "completed": null,
-    "total": null,
+    "completed": 0,
+    "total": 67,
     "last_completed_task": null,
-    "active_task": null
+    "active_task": "1141895842"
   },
-  "last_run": "2026-10-10T04:28:32.512456+00:00"
+  "last_run": "2026-10-10T04:34:21.658289+00:00",
+  "last_failure": "2026-10-10T04:34:21.658289+00:00",
+  "active_task": "1141895842",
+  "history": [
+    {
+      "run_at_utc": "2026-10-10T04:34:21.658289+00:00",
+      "timing_s": 76.7,
+      "passed": false,
+      "verdict": "DEGRADED",
+      "chapter_id": "1141895842"
+    }
+  ],
+  "scheduler": {
+    "last_scheduled_at": "2026-10-10T04:34:21.722086+00:00",
+    "last_started_at": "2026-10-10T04:34:21.722086+00:00",
+    "last_finished_at": "2026-10-10T04:34:21.722458+00:00",
+    "last_result": "ENV_FAILED",
+    "last_run_id": "38024374050",
+    "last_trigger": "manual",
+    "consecutive_failures": 0,
+    "execution_id": "38024374050",
+    "attempt": 1,
+    "blocked_since": null,
+    "blocked_hits": 0,
+    "blocked_retry_interval": 0
+  }
 }
